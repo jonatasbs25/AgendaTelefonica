@@ -1,4 +1,5 @@
 using AgendaTelefonica.API.Data;
+using AgendaTelefonica.API.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -37,6 +38,8 @@ namespace AgendaTelefonica.API
             //registra o serviço do banco e permite o compartilhamento
             //da mesma instância (dados) do objeto dentro de uma chamada
             services.AddScoped<Banco>();
+            //
+            services.AddTransient<IAgendaRepository, AgendaRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

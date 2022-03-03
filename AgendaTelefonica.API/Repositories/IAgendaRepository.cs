@@ -6,7 +6,7 @@ namespace AgendaTelefonica.API.Repositories
 {
     //padrão Repository: isola a camada de acesso a dados com a camada de negócio (domínio) .
     //é criado uma interface de consulta e manipulação específica em coleção de dados
-    //define um contrato que expõe os endpoints da api
+    //define um contrato que expõe que endpoints da api
     public interface IAgendaRepository
     {
         Task<List<Agenda>> ListarContatosAsync();
