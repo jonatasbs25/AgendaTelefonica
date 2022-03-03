@@ -1,4 +1,4 @@
-﻿namespace AgendaTelefonica.API.Data
+﻿namespace AgendaTelefonica.API.Models
 {
     public class Agenda
     {

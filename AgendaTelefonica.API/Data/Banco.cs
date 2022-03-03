@@ -10,7 +10,8 @@ namespace AgendaTelefonica.API.Data
     public class Banco : IDisposable
     {
         //váriavel de leitura que gerenciará a conexão com o banco
-        private readonly IDbConnection connection;
+        //public readonly IDbConnection Connection;
+        public IDbConnection Connection { get; }
 
         //ao iniciar o objeto Banco, receberá como parâmetro as informações
         //contidas no arquivo de configuração da aplicação e abrirá a conexão
@@ -18,17 +19,18 @@ namespace AgendaTelefonica.API.Data
         {
             //a váriavel abre a conexão pegando as informações do banco que estão
             //no arquivo appsettings.json
-            connection = new SqlConnection(configuration
+            Connection = new SqlConnection(configuration
                 .GetConnectionString("DefaultConnection"));
-            connection.Open();
+            Connection.Open();
         }
 
         //o método Dispose() fechará a conexão após seu uso e liberará
         //o espaço alocado na memória 
         public void Dispose() 
         {
-            if (connection.State == ConnectionState.Open)
-                connection.Close();
+            if (Connection.State == ConnectionState.Open)
+            Connection.Close();
+            //Connection?.Dispose();
         } 
     }
 }

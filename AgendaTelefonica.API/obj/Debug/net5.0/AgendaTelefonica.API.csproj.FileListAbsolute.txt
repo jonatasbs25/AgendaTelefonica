@@ -1,0 +1,7 @@
+J:\Projetos\Web\AgendaTelefonica\AgendaTelefonica.API\obj\Debug\net5.0\AgendaTelefonica.API.csproj.AssemblyReference.cache
+J:\Projetos\Web\AgendaTelefonica\AgendaTelefonica.API\obj\Debug\net5.0\AgendaTelefonica.API.GeneratedMSBuildEditorConfig.editorconfig
+J:\Projetos\Web\AgendaTelefonica\AgendaTelefonica.API\obj\Debug\net5.0\AgendaTelefonica.API.AssemblyInfoInputs.cache
+J:\Projetos\Web\AgendaTelefonica\AgendaTelefonica.API\obj\Debug\net5.0\AgendaTelefonica.API.AssemblyInfo.cs
+J:\Projetos\Web\AgendaTelefonica\AgendaTelefonica.API\obj\Debug\net5.0\AgendaTelefonica.API.csproj.CoreCompileInputs.cache
+J:\Projetos\Web\AgendaTelefonica\AgendaTelefonica.API\obj\Debug\net5.0\AgendaTelefonica.API.MvcApplicationPartsAssemblyInfo.cs
+J:\Projetos\Web\AgendaTelefonica\AgendaTelefonica.API\obj\Debug\net5.0\AgendaTelefonica.API.MvcApplicationPartsAssemblyInfo.cache
